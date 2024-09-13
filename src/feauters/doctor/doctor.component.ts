@@ -10,7 +10,7 @@ import { SeedsService } from '../../services/seeds.service';
   styleUrl: './doctor.component.css'
 })
 export class DoctorComponent {
-
+  name = 'moumin';
   Doctor: any;
   
   constructor(private SeedsService: SeedsService) 
