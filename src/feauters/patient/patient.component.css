@@ -1,0 +1,67 @@
+/* General Table Container Styling */
+.doctor-table-container, .book-table-container {
+    margin: 20px 0;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Header Styling for Both Tables */
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Doctor Table Specific Styling */
+  .doctor-table {
+    border: 2px solid #3498db;
+  }
+  
+  .doctor-table-container h2 {
+    font-size: 24px;
+    color: #3498db;
+    text-transform: uppercase;
+  }
+  
+  /* Book Table Specific Styling */
+  .book-table {
+    border: 2px solid #e67e22;
+  }
+  
+  .book-table-container h2 {
+    font-size: 24px;
+    color: #e67e22;
+    text-transform: uppercase;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    table, th, td {
+      font-size: 14px;
+    }
+  
+    .doctor-table-container h2,
+    .book-table-container h2 {
+      font-size: 20px;
+    }
+  }
+  
